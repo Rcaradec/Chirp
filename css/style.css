@@ -1,0 +1,21 @@
+header {
+  background-color: #e4fde1;
+}
+
+.header__container {
+  padding: 3em;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__right_container {
+  margin: 1em;
+  display: flex;
+}
+
+.header__btn_container {
+  display: flex;
+}
