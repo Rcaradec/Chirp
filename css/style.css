@@ -1,3 +1,19 @@
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+/* COMMONT STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding-top: 1.5em;
+}
+
+/* HEADER */
+
 header {
   background-color: #e4fde1;
 }
@@ -6,16 +22,135 @@ header {
   padding: 3em;
   width: 80%;
   margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  background-color: #e4fde1;
 }
 
 .header__right_container {
-  margin: 1em;
-  display: flex;
+  float: right;
 }
 
 .header__btn_container {
+}
+
+.header_title {
+  display: inline;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.header_links {
+  margin: 1em;
+  margin-right: 2em;
+  color: gray;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button_icon {
+  display: inline;
+  position: relative;
+}
+
+.btn {
+  background-color: #ffbf46;
+  padding: 1em 3.5em;
+  border: none;
+  text-align: right;
+  border-radius: 0.3em;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.twitter_icon {
+  position: absolute;
+  left: 0.5em;
+  top: 0.1em;
+}
+
+/* SECTION TOP */
+
+/* LEFT COLUMN */
+
+.section__top {
+  margin: auto;
+  width: 80%;
   display: flex;
+}
+
+.top__left_column {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.top_left_desc {
+  padding-bottom: 1.5em;
+}
+
+.learn {
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.avatars_container {
+  padding-top: 1.5em;
+  display: flex;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+#img_avatar1 {
+  position: absolute;
+  left: 0em;
+}
+
+#img_avatar2 {
+  position: absolute;
+  left: 1em;
+}
+#img_avatar3 {
+  position: absolute;
+  left: 2em;
+}
+#img_avatar4 {
+  position: absolute;
+  left: 3em;
+}
+#img_avatar5 {
+  position: absolute;
+  left: 4em;
+}
+#img_avatar6 {
+  position: absolute;
+  left: 5em;
+}
+#img_avatar7 {
+  position: absolute;
+  left: 6em;
+}
+#img_avatar8 {
+  position: absolute;
+  left: 7em;
+}
+#img_avatar9 {
+  position: absolute;
+  left: 8em;
+}
+
+span {
+  color: #0000db;
+  font-weight: bold;
 }
