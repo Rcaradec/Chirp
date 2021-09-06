@@ -55,12 +55,13 @@ header {
 .button_icon {
   display: inline;
   position: relative;
+  padding: 1em;
 }
 
 .btn {
   background-color: #ffbf46;
-  padding: 1em 3.5em;
   border: none;
+  padding: 1em 3em;
   text-align: right;
   border-radius: 0.3em;
   color: white;
@@ -70,8 +71,10 @@ header {
 
 .twitter_icon {
   position: absolute;
-  left: 0.5em;
-  top: 0.1em;
+  left: 0.3em;
+  top: 0;
+  margin-top: 0.1em;
+  padding: 1em;
 }
 
 /* SECTION TOP */
@@ -97,6 +100,7 @@ h1 {
 
 .top_left_desc {
   padding-bottom: 1.5em;
+  color: gray;
 }
 
 .learn {
@@ -150,7 +154,22 @@ h1 {
   left: 8em;
 }
 
+.top__left_bottom_desc {
+  line-height: 1.5;
+}
+
 span {
   color: #0000db;
   font-weight: bold;
+}
+
+/* RIGHT COLUMN */
+
+.top__right_column {
+  width: 50%;
+}
+
+.hero_desktop_img {
+  max-width: 100%;
+  margin-left: 2em;
 }
